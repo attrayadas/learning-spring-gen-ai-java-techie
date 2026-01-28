@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-gemini-demo
+
+server:
+  port: 8080
