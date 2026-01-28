@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-gemini-demo" />
         <module name="02-spring-ollama-demo" />
+        <module name="02-spring-ollama-demo (1)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -15,6 +16,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="01-spring-gemini-demo" options="-parameters" />
       <module name="02-spring-ollama-demo" options="-parameters" />
+      <module name="02-spring-ollama-demo (1)" options="-parameters" />
     </option>
   </component>
 </project>
