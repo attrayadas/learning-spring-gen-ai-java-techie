@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: spring-ollama-demo
+
+  ai:
+    ollama:
+      base-url: http://localhost:11434/
+      chat:
+        model: llama3.2:1b
+
+logging:
+  level:
+    org:
+      springframework:
+        ai:
+          chat:
+            client:
+              advisor: DEBUG
+
+# Run these before running the applications:
+# 1. docker compose -f docker-compose.yml up
+# 2. docker exec -it ollama ollama run functiongemma:latest
