@@ -10,6 +10,7 @@
         <option value="$PROJECT_DIR$/04-spring-message-roles-demo/pom.xml" />
         <option value="$PROJECT_DIR$/05-spring-prompt-templates-demo/pom.xml" />
         <option value="$PROJECT_DIR$/06-spring-ai-advisor-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/07-spring-chat-options/pom.xml" />
       </list>
     </option>
   </component>

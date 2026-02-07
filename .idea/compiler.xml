@@ -8,10 +8,11 @@
         <outputRelativeToContentRoot value="true" />
         <module name="01-spring-gemini-demo" />
         <module name="02-spring-ollama-demo" />
-        <module name="02-spring-ollama-demo (2)" />
-        <module name="02-spring-ollama-demo (1)" />
         <module name="05-spring-prompt-templates-demo" />
         <module name="04-spring-message-roles-demo" />
+        <module name="02-spring-ollama-demo (2)" />
+        <module name="02-spring-ollama-demo (1)" />
+        <module name="02-spring-ollama-demo (3)" />
       </profile>
     </annotationProcessing>
   </component>
@@ -21,6 +22,7 @@
       <module name="02-spring-ollama-demo" options="-parameters" />
       <module name="02-spring-ollama-demo (1)" options="-parameters" />
       <module name="02-spring-ollama-demo (2)" options="-parameters" />
+      <module name="02-spring-ollama-demo (3)" options="-parameters" />
       <module name="04-spring-message-roles-demo" options="-parameters" />
       <module name="05-spring-prompt-templates-demo" options="-parameters" />
     </option>
