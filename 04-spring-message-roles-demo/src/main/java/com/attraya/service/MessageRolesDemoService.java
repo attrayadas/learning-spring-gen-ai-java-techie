@@ -13,13 +13,6 @@ public class MessageRolesDemoService  {
 
     private final ChatClient chatClient;
 
-    private static final String CLAIM_DETAILS = """
-            Claim details:
-            Policy: BASIC
-            Max Coverage: 20000
-            Claim Amount: 50000
-            """;
-
     public MessageRolesDemoService(ChatClient.Builder chatClientBuilder) {
         this.chatClient = chatClientBuilder.build();
     }
